@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}}\PYG{n}{datatype}\PYG{o}{\PYGZgt{}} \PYG{n}{function\PYGZus{}name}\PYG{p}{(} \PYG{o}{\PYGZlt{}}\PYG{n}{datatype}\PYG{o}{\PYGZgt{}} \PYG{n}{parameters1}\PYG{p}{,} \PYG{o}{\PYGZlt{}}\PYG{n}{datatype}\PYG{o}{\PYGZgt{}} \PYG{n}{parameters2}\PYG{p}{,} \PYG{p}{...} \PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+
+	\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{n}{here}\PYG{p}{;}
+
+	\PYG{k}{return} \PYG{n}{variable}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

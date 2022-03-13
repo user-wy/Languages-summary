@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{n}{Please} \PYG{n}{input} \PYG{n}{student} \PYG{n+nl}{number}\PYG{p}{:}
+		\PYG{l+m+mi}{20152020}
+		\PYG{n}{Please} \PYG{n}{input} \PYG{n}{student} \PYG{n+nl}{sex}\PYG{p}{:}
+		\PYG{l+m+mi}{0}
+		\PYG{n}{Please} \PYG{n}{input} \PYG{n}{student} \PYG{n}{name}
+		\PYG{n}{nick}
+
+		\PYG{o}{********************}\PYG{n}{Student} \PYG{n}{infor}\PYG{o}{***************************}
+		\PYG{n}{Student} \PYG{n+nl}{name}\PYG{p}{:} \PYG{n}{nick}
+		\PYG{n}{Student} \PYG{n+nl}{number}\PYG{p}{:} \PYG{l+m+mi}{20152020}
+		\PYG{n}{Student} \PYG{n+nl}{sex}\PYG{p}{:}\PYG{n}{male}
+\end{Verbatim}

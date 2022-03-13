@@ -1,0 +1,57 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{argv}\PYG{p}{[])}
+\PYG{p}{\PYGZob{}}
+	\PYG{k}{enum} \PYG{n}{week} \PYG{p}{\PYGZob{}} \PYG{n}{Monday}\PYG{p}{,}
+				\PYG{n}{Tuesday}\PYG{p}{,}
+				\PYG{n}{Wednesday}\PYG{p}{,}
+				\PYG{n}{Thursday}\PYG{p}{,}
+				\PYG{n}{Friday}\PYG{p}{,}
+				\PYG{n}{Saturday}\PYG{p}{,}
+				\PYG{n}{Sunday} \PYG{p}{\PYGZcb{};}
+
+	\PYG{k}{enum} \PYG{n}{week} \PYG{n}{day}\PYG{p}{;}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Please input a day:}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+
+	\PYG{n}{scanf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZpc{}d\PYGZdq{}}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{day} \PYG{p}{);}
+	\PYG{k}{switch}\PYG{p}{(}\PYG{n}{day}\PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+		\PYG{k}{case} \PYG{n+nl}{Monday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Monday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+			
+		\PYG{k}{case} \PYG{n+nl}{Tuesday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Tuesday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+
+		\PYG{k}{case} \PYG{n+nl}{Wednesday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Wednesday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+
+		\PYG{k}{case} \PYG{n+nl}{Thursday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Thursday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+
+		\PYG{k}{case} \PYG{n+nl}{Friday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Friday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+
+		\PYG{k}{case} \PYG{n+nl}{Saturday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Saturday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+
+		\PYG{k}{case} \PYG{n+nl}{Sunday}\PYG{p}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Today is Sunday}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+
+		\PYG{k}{default}\PYG{o}{:}
+			\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Input Error!}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+			\PYG{k}{break}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+				
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k}{switch}\PYG{p}{(} \PYG{err}{变量} \PYG{p}{)}
+		\PYG{p}{\PYGZob{}}
+			\PYG{k}{case} \PYG{err}{变量值}\PYG{l+m+mi}{1}\PYG{o}{:}
+				\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{p}{;}
+				\PYG{k}{break}\PYG{p}{;}
+			\PYG{k}{case} \PYG{err}{变量值}\PYG{l+m+mi}{2}\PYG{o}{:}
+				\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{p}{;}
+				\PYG{k}{break}\PYG{p}{;}
+			\PYG{k}{default}\PYG{o}{:}
+				\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{p}{;}
+		\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

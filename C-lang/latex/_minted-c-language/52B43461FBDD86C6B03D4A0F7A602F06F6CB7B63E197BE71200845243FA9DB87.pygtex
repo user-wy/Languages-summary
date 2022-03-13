@@ -1,0 +1,53 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{swap}\PYG{p}{(} \PYG{k+kt}{int} \PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{b} \PYG{p}{);}
+\PYG{k+kt}{int} \PYG{n+nf}{swap\PYGZus{}p}\PYG{p}{(} \PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{b}\PYG{p}{);}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{argv}\PYG{p}{[])}
+\PYG{p}{\PYGZob{}}
+
+	\PYG{k+kt}{int} \PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;}
+	\PYG{k+kt}{int} \PYG{n}{b} \PYG{o}{=} \PYG{l+m+mi}{3}\PYG{p}{;}
+	\PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{a\PYGZus{}p} \PYG{o}{=} \PYG{o}{\PYGZam{}}\PYG{n}{a}\PYG{p}{;}
+	\PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{b\PYGZus{}p} \PYG{o}{=} \PYG{o}{\PYGZam{}}\PYG{n}{b}\PYG{p}{;}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}t}\PYG{l+s}{Init value}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}a = \PYGZpc{}d, b = \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{);}
+
+	\PYG{c+c1}{// use swap function to swap two parameters}
+	\PYG{n}{swap}\PYG{p}{(} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b} \PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}t}\PYG{l+s}{swap value}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}a = \PYGZpc{}d, b = \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{);}
+
+	\PYG{c+c1}{// use swap\PYGZus{}p function to swap two parameters}
+	\PYG{n}{swap\PYGZus{}p}\PYG{p}{(} \PYG{n}{a\PYGZus{}p}\PYG{p}{,} \PYG{n}{b\PYGZus{}p} \PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}t}\PYG{l+s}{swap\PYGZus{}p value}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}a = \PYGZpc{}d, b = \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{);}
+	
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{swap}\PYG{p}{(} \PYG{k+kt}{int} \PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{b} \PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{k+kt}{int} \PYG{n}{mid} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+
+	\PYG{n}{mid} \PYG{o}{=} \PYG{n}{a}\PYG{p}{;}
+	\PYG{n}{a} \PYG{o}{=} \PYG{n}{b}\PYG{p}{;}
+	\PYG{n}{b} \PYG{o}{=} \PYG{n}{mid}\PYG{p}{;}
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{swap\PYGZus{}p}\PYG{p}{(} \PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{b}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{k+kt}{int} \PYG{n}{mid} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+
+	\PYG{n}{mid} \PYG{o}{=} \PYG{o}{*}\PYG{n}{a}\PYG{p}{;}
+	\PYG{o}{*}\PYG{n}{a} \PYG{o}{=} \PYG{o}{*}\PYG{n}{b}\PYG{p}{;}
+	\PYG{o}{*}\PYG{n}{b} \PYG{o}{=} \PYG{n}{mid}\PYG{p}{;}
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

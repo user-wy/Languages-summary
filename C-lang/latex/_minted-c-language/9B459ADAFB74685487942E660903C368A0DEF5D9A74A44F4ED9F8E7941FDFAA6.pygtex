@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k}{enum} \PYG{n}{colors} \PYG{p}{\PYGZob{}} \PYG{n}{Red}\PYG{p}{,} \PYG{n}{Green}\PYG{p}{,} \PYG{n}{Blue} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{p}{,} \PYG{n}{Yellow} \PYG{p}{\PYGZcb{};}
+		\PYG{k}{enum} \PYG{n}{colors}\PYG{p}{\PYGZob{}}
+			\PYG{n}{Red}\PYG{p}{,}
+			\PYG{n}{green}\PYG{p}{,}
+			\PYG{n}{Blue} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{p}{,}
+			\PYG{n}{Yellow}
+			\PYG{p}{\PYGZcb{};}
+\end{Verbatim}

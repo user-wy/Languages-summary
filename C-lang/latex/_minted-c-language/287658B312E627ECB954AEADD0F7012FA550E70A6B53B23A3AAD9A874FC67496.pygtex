@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	Please input a integer:
+	\PYG{l+m}{23}
+	\PYG{n+nv}{var} \PYG{o}{=} \PYG{l+m}{23}
+\end{Verbatim}

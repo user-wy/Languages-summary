@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{n}{result} \PYG{o}{=} \PYG{l+m+mi}{0}
+		\PYG{n}{result} \PYG{o}{=} \PYG{l+m+mi}{3}
+\end{Verbatim}

@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{argv}\PYG{p}{[])}
+\PYG{p}{\PYGZob{}}
+	\PYG{k}{enum} \PYG{n}{sex}\PYG{p}{\PYGZob{}}
+		\PYG{n}{male}\PYG{p}{,}
+		\PYG{n}{female}
+	\PYG{p}{\PYGZcb{};}
+
+	\PYG{k}{struct} \PYG{n+nc}{student}\PYG{p}{\PYGZob{}}
+		\PYG{k+kt}{int} \PYG{n}{stu\PYGZus{}nu}\PYG{p}{;}
+		\PYG{k}{enum} \PYG{n}{sex} \PYG{n}{stu\PYGZus{}sex}\PYG{p}{;}
+		\PYG{k+kt}{char} \PYG{n}{stu\PYGZus{}name}\PYG{p}{[}\PYG{l+m+mi}{10}\PYG{p}{];}
+	\PYG{p}{\PYGZcb{};}
+
+	\PYG{k}{struct} \PYG{n+nc}{student} \PYG{n}{student\PYGZus{}wy}\PYG{p}{;}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Please input student number:}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{scanf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{} \PYGZpc{}d\PYGZdq{}}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{student\PYGZus{}wy}\PYG{p}{.}\PYG{n}{stu\PYGZus{}nu}\PYG{p}{);}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Please input student sex:}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{scanf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{} \PYGZpc{}d\PYGZdq{}}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{student\PYGZus{}wy}\PYG{p}{.}\PYG{n}{stu\PYGZus{}sex}\PYG{p}{);}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Please input student name}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{scanf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{} \PYGZpc{}s\PYGZdq{}}\PYG{p}{,} \PYG{n}{student\PYGZus{}wy}\PYG{p}{.}\PYG{n}{stu\PYGZus{}name}\PYG{p}{);}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{********************Student infor***************************}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Student name: \PYGZpc{}s }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{Student number: \PYGZpc{}d }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{Student sex:\PYGZdq{}}\PYG{p}{,}
+							\PYG{n}{student\PYGZus{}wy}\PYG{p}{.}\PYG{n}{stu\PYGZus{}name}\PYG{p}{,} \PYG{n}{student\PYGZus{}wy}\PYG{p}{.}\PYG{n}{stu\PYGZus{}nu}\PYG{p}{);}
+
+
+	\PYG{k}{if}\PYG{p}{(} \PYG{n}{student\PYGZus{}wy}\PYG{p}{.}\PYG{n}{stu\PYGZus{}sex} \PYG{o}{==} \PYG{n}{male} \PYG{p}{)}
+		\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}male}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	\PYG{k}{else}
+		\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}female}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

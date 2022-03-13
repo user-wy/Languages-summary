@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{n}{The} \PYG{n}{string} \PYG{n+nl}{before}\PYG{p}{:}
+		\PYG{n}{who} \PYG{n}{are} \PYG{n}{u}\PYG{o}{?}
+		\PYG{n}{nick}
+		\PYG{n}{tom}
+		\PYG{n}{The} \PYG{n}{string} \PYG{n}{after} \PYG{n}{with} \PYG{n}{system} \PYG{n+nl}{function}\PYG{p}{:}
+		\PYG{n}{who} \PYG{n}{are} \PYG{n}{u}\PYG{o}{?}
+		\PYG{n}{nick}
+		\PYG{n}{nick}
+		\PYG{n}{The} \PYG{n}{string} \PYG{n}{after} \PYG{n}{with} \PYG{n}{system} \PYG{n+nl}{function}\PYG{p}{:}
+		\PYG{n}{nick}
+		\PYG{n}{nick}
+		\PYG{n}{nick}
+\end{Verbatim}

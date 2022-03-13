@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{n}{integer} \PYG{o}{=} \PYG{l+m+mi}{4}
+		\PYG{n}{int\PYGZus{}pointer} \PYG{o}{=} \PYG{l+m+mh}{0x4a321e2c}
+		\PYG{o}{*}\PYG{n}{int\PYGZus{}pointer} \PYG{o}{=} \PYG{l+m+mi}{4}
+\end{Verbatim}

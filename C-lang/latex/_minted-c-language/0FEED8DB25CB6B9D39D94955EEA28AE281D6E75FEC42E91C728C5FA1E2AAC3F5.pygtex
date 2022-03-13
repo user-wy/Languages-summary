@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}ifndef \PYGZus{}sum\PYGZus{}H}
+\PYG{c+cp}{\PYGZsh{}define	\PYGZus{}sum\PYGZus{}H}
+
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{sum}\PYG{p}{(} \PYG{k+kt}{int} \PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{b} \PYG{p}{);}
+
+\PYG{c+cp}{\PYGZsh{}endif}
+\end{Verbatim}

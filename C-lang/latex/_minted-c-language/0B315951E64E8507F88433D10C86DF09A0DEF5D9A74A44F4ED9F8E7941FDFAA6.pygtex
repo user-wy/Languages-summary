@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n+nf}{fopen}\PYG{p}{(} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{filename}\PYG{p}{,} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{mode}\PYG{p}{);}
+
+		\PYG{k+kt}{int} \PYG{n+nf}{fclose}\PYG{p}{(} \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{fp} \PYG{p}{);}
+		
+		\PYG{c+c1}{//写入文件}
+		\PYG{k+kt}{int} \PYG{n+nf}{fputc}\PYG{p}{(} \PYG{k+kt}{int} \PYG{n}{c}\PYG{p}{,} \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{fp} \PYG{p}{);}
+		\PYG{k+kt}{int} \PYG{n+nf}{fputs}\PYG{p}{(} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{s}\PYG{p}{,} \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{fp} \PYG{p}{);}
+
+		\PYG{c+c1}{// 读取文件}
+		\PYG{k+kt}{int} \PYG{n+nf}{getc}\PYG{p}{(} \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{fp} \PYG{p}{);}
+		\PYG{k+kt}{char} \PYG{o}{*}\PYG{n+nf}{fgets}\PYG{p}{(} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{buf}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{n}\PYG{p}{,} \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{fp} \PYG{p}{);}
+
+		\PYG{k+kt}{int} \PYG{n+nf}{fseek}\PYG{p}{(} \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{fp}\PYG{p}{,} \PYG{k+kt}{long} \PYG{n}{offset}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{where} \PYG{p}{);}
+						\PYG{n}{where}
+				\PYG{n+nl}{SEEk\PYGZus{}SET}   \PYG{p}{:} \PYG{n}{start} \PYG{n}{of} \PYG{n}{file}
+				\PYG{n+nl}{SEEk\PYGZus{}CUR}   \PYG{p}{:} \PYG{n}{current} \PYG{n}{of} \PYG{n}{file}
+				\PYG{n+nl}{SEEk\PYGZus{}END}   \PYG{p}{:} \PYG{n}{end} \PYG{n}{of} \PYG{n}{file}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}sum.h\PYGZdq{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{sum}\PYG{p}{(} \PYG{k+kt}{int} \PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{b} \PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{k}{return} \PYG{n}{a}\PYG{o}{+}\PYG{n}{b}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

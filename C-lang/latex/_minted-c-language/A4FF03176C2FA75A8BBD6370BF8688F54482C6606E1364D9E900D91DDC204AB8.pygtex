@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}\PYG{c+c1}{	}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{argv}\PYG{p}{[])}
+\PYG{p}{\PYGZob{}}
+	\PYG{c+cm}{/*	\PYGZsh{}include \PYGZlt{}stdio.h\PYGZgt{}}
+\PYG{c+cm}{	 *	}
+\PYG{c+cm}{	 *	int scanf(const char *format, ...);}
+\PYG{c+cm}{	 */}	
+
+	\PYG{k+kt}{int} \PYG{n}{var} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Please input a integer:}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+	
+	\PYG{n}{scanf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZpc{}d\PYGZdq{}}\PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{var}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}var = \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{var}\PYG{p}{);}
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{n}{Please} \PYG{n}{input} \PYG{n}{a} \PYG{k+kt}{char} \PYG{n}{to} \PYG{n+nl}{save}\PYG{p}{:}
+		\PYG{n}{c}
+		\PYG{n}{Data} \PYG{n+nl}{is} \PYG{p}{:} \PYG{n}{c}
+\end{Verbatim}

@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}filename\PYGZgt{}}
+
+		\PYG{c+cp}{\PYGZsh{}define \PYGZlt{}name\PYGZgt{} \PYGZlt{}original name\PYGZgt{}}
+
+		\PYG{c+cp}{\PYGZsh{}if \PYGZlt{}Logical\PYGZgt{}}
+			\PYG{o}{\PYGZlt{}}\PYG{n}{command}\PYG{o}{\PYGZgt{}}
+		\PYG{c+cp}{\PYGZsh{}elif \PYGZlt{}Logical\PYGZgt{}}
+			\PYG{o}{\PYGZlt{}}\PYG{n}{command}\PYG{o}{\PYGZgt{}}
+		\PYG{c+cp}{\PYGZsh{}else}
+			\PYG{o}{\PYGZlt{}}\PYG{n}{command}\PYG{o}{\PYGZgt{}}
+		\PYG{c+cp}{\PYGZsh{}endif}
+
+		\PYG{c+cp}{\PYGZsh{}ifndef \PYGZlt{}Logical\PYGZgt{}}
+			\PYG{o}{\PYGZlt{}}\PYG{n}{command}\PYG{o}{\PYGZgt{}}
+		\PYG{c+cp}{\PYGZsh{}endif}
+\end{Verbatim}

@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k}{if}\PYG{p}{(} \PYG{err}{判断条件}\PYG{l+m+mi}{1} \PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+		\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{n}{here}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+	\PYG{n}{elif}\PYG{p}{(} \PYG{err}{判断条件}\PYG{l+m+mi}{2} \PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+		\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{n}{here}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+	\PYG{p}{...}
+	\PYG{p}{...}
+	\PYG{p}{...}
+	\PYG{k}{else}
+	\PYG{p}{\PYGZob{}}
+		\PYG{n}{put} \PYG{n}{your} \PYG{n}{code} \PYG{n}{here} \PYG{k}{for} \PYG{n}{other} \PYG{n}{conditions}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

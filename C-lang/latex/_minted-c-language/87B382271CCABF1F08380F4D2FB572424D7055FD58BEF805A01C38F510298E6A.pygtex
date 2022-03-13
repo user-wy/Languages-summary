@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{argv}\PYG{p}{[])}
+\PYG{p}{\PYGZob{}}
+
+	\PYG{k+kt}{int} \PYG{n}{integer} \PYG{o}{=} \PYG{l+m+mi}{4}\PYG{p}{;}
+	\PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{int\PYGZus{}pointer} \PYG{o}{=} \PYG{o}{\PYGZam{}}\PYG{n}{integer}\PYG{p}{;} 
+	\PYG{c+c1}{// equal to : int *int\PYGZus{}pointer;     int\PYGZus{}pointer = \PYGZam{}integer;}
+
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}integer = \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{integer}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}int\PYGZus{}pointer = 0x\PYGZpc{}x}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{int\PYGZus{}pointer}\PYG{p}{);}
+	\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}*int\PYGZus{}pointer = \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{o}{*}\PYG{n}{int\PYGZus{}pointer}\PYG{p}{);}
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
